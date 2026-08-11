@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/catalog
+    username: root
+    password: System
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+razorpay:
+  key_id: rzp_test_TM7Nniuam3xJkl
+  key_secret: hB1Pi6nXEUTvrU8zSCgnuDd1
